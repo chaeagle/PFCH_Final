@@ -21,6 +21,9 @@ Once I had my JSON of all contaminated wells (each identifying the contaminant a
 
 
 References: 
-•	Earth Justice. (n.d.). Tennessee and Coal Ash Disposal in Ponds and Landfills [PDF]. Retrieved from https://earthjustice.org/sites/default/files/tn-coal-ash-factsheet-1111.pdf
-•	Environmental Integrity Project. (n.d.). About. Retrieved from http://www.environmentalintegrity.org/who-we-are/
-•	Environmental Integrity Project. (n.d.). Ashtracker. Retrieved from https://ashtracker.org/
+
+Earth Justice. (n.d.). Tennessee and Coal Ash Disposal in Ponds and Landfills [PDF]. Retrieved from https://earthjustice.org/sites/default/files/tn-coal-ash-factsheet-1111.pdf
+
+Environmental Integrity Project. (n.d.). About. Retrieved from http://www.environmentalintegrity.org/who-we-are/
+
+Environmental Integrity Project. (n.d.). Ashtracker. Retrieved from https://ashtracker.org/
