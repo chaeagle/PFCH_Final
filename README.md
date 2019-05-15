@@ -5,11 +5,14 @@ This is an on-going project that aims to look at coal ash contamination on groun
 For your own analysis you can visit www.ashtracker.org and download data sets to do your own investigation into groundwater contamination in your own area.
 
 
+
 Background Information:
+
 Coal ash is a huge industrial waste factor in the United States. Plants that burn coal product an ash byproduct that gets dumped (untreated) into water sources around near the site. In 2008 the largest environmental disaster occurred at the Kingston Fossil Plant. According to Earth Justice (nonprofit environmental law organization), the coal ash dam broke releasing 1.1 billion gallons of coal ash into the Emory and Clinch Rivers making it 5 times larger (by volume) than the BP Deepwater Horizon spill of 2010.  Coal ash is a toxic mis of pollutants that cause a multitude of health effects. Carcinogens like Arsenic, neurotoxins like Manganese, and other toxins have slowly been rising especially in the state of Tennessee. I am from Memphis, Tennessee. The Allen Fossil Plant lies close to our aquifer and sole source of drinking water. The aquifer supplies drinking water for residents in Tennessee and Mississippi and is slowly under attack from coal ash contaminants, particularly arsenic. This is what inspired me to visualize in my own way just how much of the groundwater supply is being contaminated in Tennessee and how this could affect drinking water standards. 
 
 
 Process:
+
 I used the Ashtracker data sets exported as a .csv file. States are required to monitor groundwater and submit to state agencies and EPA. The Environmental Integrity Project goes through the process of demanding this data from state agencies under the “Right to Know” law. 
 
 I wrote a script that analyzed the .csv in python for each of the plant sites in Tennessee. I defined specific rows I wanted to analyze from the data that would help me build a larger JSON dictionary of only the wells that were showing contamination. I defined the JSON dictionary by year, beginning with 2010 because that is when Ashtracker started loading data. I also included Longitude and Latitude for each well in order to plot on a later visualization. Before I turned the .csv file into my JSON file, I needed to define which wells were contaminated and with what. I did this with a “if” statement defined by two factors:
@@ -18,6 +21,7 @@ I wrote a script that analyzed the .csv in python for each of the plant sites in
 The “if” statement says if the Limit Exceeded was True and Below Detection Limit was False then the well was marked as contaminated. 
 
 Once I had my JSON of all contaminated wells (each identifying the contaminant and the measurement), I wrote a second script for each of the plant sites, that uses the statistics method to analyze the mean for each year of every contaminant. I ran these scripts in my computer’s Terminal in order to get a print out of the Well, Year, Contaminant, and Mean Value. I took that data and turned it into multiple excel files for future use. 
+
 
 
 References: 
